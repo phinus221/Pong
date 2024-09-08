@@ -258,6 +258,11 @@ int main()
                 game.ball.speed = 0;
                 gamePaused = true;
             }
+
+            if(IsKeyPressed(KEY_F) == true)
+            {
+                ToggleFullscreen();
+            }
         }
 
         EndDrawing();
